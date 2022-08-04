@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Librerias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fuente awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Css/style.css">
+  </head>
+  <body>
+
+    <!-- header  -->
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">Tienda</a>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+          <div class = "navbar-collapse">
+            <ul>
+              <li><a href = "#">Home</a></li>
+              <li><a href = "#">Juegos Nuevos</a></li>
+              <li><a href = "#">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cart-list">
+                <!-- plantilla para item -->
+                <!--              <div class = "cart-item">
+                    <img src = "Imagenes/Ac-Valhalla.jpg" alt = "imagen producto">
+                    <div class = "cart-item-info">
+                      <h3 class = "cart-item-name">Assasins Creed Valhalla</h3>
+                      <span class = "cart-item-category">Accion</span>
+                      <span class = "cart-item-price">$59.99</span>
+                    </div>
+                    <button type = "button" class = "cart-item-del-btn">
+                      <i class = "fas fa-times"></i>
+                    </button>
+                  </div>-->
+                <!-- fin plantilla para item  -->
+                
+              </div>
+
+              <div class = "cart-total">
+                <h3>Total: $</h3>
+                <span id = "cart-total-value"></span>
+              </div>
+              <button id="boton-comprar">COMPRAR</button>
+            </div>
+          </div>
+        </nav>
+        <!-- Fin navbar -->
+
+        <!-- banner -->
+        <div class = "banner">
+          <div class = "banner-content">
+            <h1>Nombre Tienda</h1>
+            <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet, quis nisi recusandae assumenda ea sequi obcaecati accusantium in provident dolore debitis autem neque vel commodi atque voluptates incidunt aliquam delectus veritatis? Exercitationem, fugit sed!</p>
+            <div class = "btns">
+              <button type = "button" class = "btn">Conoce mas</button>
+              <button type = "button" class = "btn">Mas info</button>
+            </div>
+          </div>
+
+          <div class = "banner-img">
+            <img src = "Imagenes/Banner-Logo" alt = "Imagen Banner">
+          </div>
+        </div>
+        <!-- fin banner  -->
+      </div>
+    </header>
+    <!-- fin header -->
+
+    <!-- seccion productos  -->
+    <section class = "products">
+      <div class = "container">
+        <h2>Nuestros Productos</h2>
+        <div class = "product-list">
+          <!-- plantilla para item plantilla para item -->
+          <!-- <div class = "product-item">
+            <div class = "product-img">
+              <img src = "Imagenes/Ac-Valhalla.jpg" alt = "imagen producto">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Añadir al carro
+              </button>
+            </div>
+            <div class = "product-content">
+              <h3 class = "product-name">Assasins Creed Valhalla</h3>
+              <span class = "product-category">Accion</span>
+              <p class = "product-price">$59.99</p>
+            </div>
+          </div> -->
+          <!-- fin plantilla para item  -->
+         
+        </div>
+      </div>
+    </section>
+    <!-- fin seccion productos -->
+
+    <!-- footer -->
+    <footer>
+      <div class = "footer-banner">
+        <div class = "container">
+          <h2>Footer</h2>
+          <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est quod maxime nisi possimus corporis qui aliquid molestias sit iusto itaque, cum delectus tempore, distinctio velit. Repellat reiciendis suscipit quidem aliquid ipsam, nemo minus repudiandae quas eligendi natus voluptate nostrum?</p>
+          <button type = "button" class = "btn">Mira mas</button>
+        </div>
+      </div>
+
+      <div class = "container">
+        <div class = "social-icons">
+          <a href = "#">
+            <i class = "fab fa-facebook-f"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-twitter"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-instagram"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-pinterest"></i>
+          </a>
+          <a href = "#">
+            <i class = "fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- fin footer -->
+
+    
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Js/main.js"></script>
+  </body>
+</html>

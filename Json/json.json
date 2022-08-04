@@ -1,0 +1,43 @@
+[
+{
+    "name" : "Assasins Creed Valhalla",
+    "category" : "Aventura/Historia",
+    "price" : "59.99",
+    "imgSrc" : "Imagenes/Ac-valhalla.jpg"
+},
+
+{
+    "name" : "Dark Souls",
+    "category" : "Aventura/Souls Like",
+    "price" : "19.99",
+    "imgSrc" : "Imagenes/dark-souls.jpg"
+},
+
+{
+    "name" : "Ghost of Tsushima",
+    "category" : "Aventura/Historia",
+    "price" : "59.99",
+    "imgSrc" : "Imagenes/ghost-of-tsushima.jpg"
+},
+
+{
+    "name" : "God of War",
+    "category" : "Aventura/Fantasía",
+    "price" : "19.99",
+    "imgSrc" : "Imagenes/God-of-War.webp"
+},
+
+{
+    "name" : "The witcher III",
+    "category" : "Aventura/Fantasía",
+    "price" : "29.99",
+    "imgSrc" : "Imagenes/the-witcher.jpg"
+},
+
+{
+    "name" : "Warhammer: Vermintide II",
+    "category" : "Slasher/Fantasía",
+    "price" : "39.99",
+    "imgSrc" : "Imagenes/vermintide-II.jpg"
+}
+]
